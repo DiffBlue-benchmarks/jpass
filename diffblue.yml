@@ -16,12 +16,8 @@ phases:
     string-max-input-length: 10
     string-max-length: 1000
 -
-  timeout: 180
+  timeout: 2400
   cbmcArguments:
-    unwind: 5
-    depth: false
-    string-max-input-length: 20
-    string-max-length: 1000
     java-mock-class:
       - "java.io.File"
       - "java.io.FileInputStream"
