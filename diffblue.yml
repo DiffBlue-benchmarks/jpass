@@ -1,0 +1,24 @@
+ignoreExistingCoverage: true
+cbmcArguments:
+phases:
+-
+  timeout: 60
+  cbmcArguments:
+    unwind: 1
+    depth: false
+    string-max-input-length: 5
+    string-max-length: 1000
+-
+  timeout: 120
+  cbmcArguments:
+    unwind: 2
+    depth: false
+    string-max-input-length: 10
+    string-max-length: 1000
+-
+  timeout: 180
+  cbmcArguments:
+    unwind: 5
+    depth: false
+    string-max-input-length: 20
+    string-max-length: 1000
