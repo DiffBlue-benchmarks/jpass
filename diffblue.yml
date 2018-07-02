@@ -22,3 +22,22 @@ phases:
     depth: false
     string-max-input-length: 20
     string-max-length: 1000
+    java-mock-class:
+      - "java\\.io\\.File"
+      - "java\\.io\\.FileInputStream"
+      - "java\\.io\\.FileReader"
+      - "java\\.io\\.InputStreamReader"
+      - "java\\.io\\.PrintWriter"
+      - "java\\.lang\\.Process"
+      - "java\\.lang\\.ProcessBuilder"
+      - "java\\.lang\\.System"
+      - "java\\.nio\\.file\\.Files"
+      - "java\\.nio\\.file\\.Paths"
+      - "java\\.security\\.KeyFactory"
+      - "java\\.security\\.Signature"
+      - "java\\.security\\.SecureRandom"
+      - "java\\.util\\.Date"
+      - "java\\.util\\.Random"
+      - "javax\\.swing\\.text.JTextComponent\\.isEnabled"
+      - "javax\\.swing\\.AbstractAction"
+      - "javax.\\swing.\\*"
